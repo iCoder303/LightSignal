@@ -17,30 +17,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="CGb-97-rVX">
-                                <rect key="frame" x="164" y="259.33333333333337" width="100" height="417.33333333333337"/>
+                                <rect key="frame" x="154" y="229.99999999999997" width="120" height="476.33333333333326"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Uq-LQ-MYQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100.33333333333333"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="100.33333333333333" id="48o-Xb-quF"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Ei5-hT-3rP"/>
-                                            <constraint firstAttribute="width" constant="100" id="f0q-8A-woN"/>
+                                            <constraint firstAttribute="height" constant="120" id="48o-Xb-quF"/>
+                                            <constraint firstAttribute="width" constant="120" id="f0q-8A-woN"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMl-9X-ayW">
-                                        <rect key="frame" x="0.0" y="126.33333333333337" width="100" height="100.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="146" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" header="YES"/>
                                         </accessibility>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oDk-eU-G7l">
-                                        <rect key="frame" x="0.0" y="252.66666666666671" width="100" height="100.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="292" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="START" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ulk-NJ-rAq">
-                                        <rect key="frame" x="0.0" y="379.00000000000006" width="100" height="38.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="438" width="120" height="38.333333333333314"/>
                                         <color key="backgroundColor" red="0.25972543549999999" green="0.71314159639999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -49,7 +48,6 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="gMl-9X-ayW" firstAttribute="width" secondItem="4Uq-LQ-MYQ" secondAttribute="width" id="AA3-d9-aRZ"/>
-                                    <constraint firstAttribute="width" constant="100" id="Lqh-vr-13a"/>
                                     <constraint firstItem="oDk-eU-G7l" firstAttribute="height" secondItem="4Uq-LQ-MYQ" secondAttribute="height" id="OQt-TQ-bE6"/>
                                     <constraint firstItem="oDk-eU-G7l" firstAttribute="width" secondItem="4Uq-LQ-MYQ" secondAttribute="width" id="ULv-0u-bqu"/>
                                     <constraint firstItem="gMl-9X-ayW" firstAttribute="height" secondItem="4Uq-LQ-MYQ" secondAttribute="height" id="oMJ-us-3NP"/>
